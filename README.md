@@ -32,7 +32,8 @@ https://amazonxxx.x.xxx.x.xxx:{port}/fibwin?value=10
 
 # Desarrollo
 - Primeramente creamos un proyecto maven llamado "Mathservices" el cual contendra el proceso del ejercicio matematico y proveera las funciones para solucionarlo.
-![alt text](imageMathTree.png)
+<img width="364" height="306" alt="image" src="https://github.com/user-attachments/assets/5c7a9b89-9f0e-40a2-8056-98051be76875" />
+
 
 - Tambien creamos otro proyecto maven llamado "proxy" el cual contendra la estructura minima del proxy el cual evitara que el servicio se caiga y tendra un sistemas activo-pasivo logrando estructurar un respaldo (pasivo) por si el servicio principal se cae (activo), esto hace que se cumpla con la caracteristica de disponiblidad para el servicio.
 ![alt text](imageProxyTree.png)
