@@ -48,10 +48,10 @@ Se diseña de esta manera la estructura del sistema para que de esta manera haya
 - Habilitamos los puertos necesarios para crear las conexiones, en el caso de Math (activo) se habilita puertos ssh (22) y http (8081), con Math2 es igual solo que se le habilita otro puerto (8080) para no interrumpir el servicio princial, con el proxy se habilita los mismos para permitir la conexion entre cada servicio.
 
 <img width="1659" height="225" alt="image" src="https://github.com/user-attachments/assets/02bc21b3-89b9-47c2-bcac-85caab8695b2" />
+<img width="1624" height="200" alt="image" src="https://github.com/user-attachments/assets/1e0890e7-914c-4cb3-94c6-8f37272edea0" />
+
 
 - luego instalamos java en ambas instancias de Math para poder implementar lo basico y clonar el repo en ambas instancias, de esta manera se realiza un subida mas directa y se evita usar conexion ssh y depender de las claves .pem
-
-+ imagen
 
 El objetivo es poder apagar el servicio en una de las instancisas y que al recargar la direccion el servidor proxy mantenga en pie el servicio con el respaldo que existe en math2 (pasivo)
 
