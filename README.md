@@ -35,7 +35,7 @@ https://amazonxxx.x.xxx.x.xxx:{port}/fibwin?value=10
 <img width="364" height="306" alt="image" src="https://github.com/user-attachments/assets/606687a1-d8d5-41dd-970c-75015881c5db" />
 
 - Tambien creamos otro proyecto maven con spring boot initializr llamado "proxy" el cual contendra la estructura minima del proxy el cual evitara que el servicio se caiga y tendra un sistemas activo-pasivo logrando estructurar un respaldo (pasivo) por si el servicio principal se cae (activo), esto hace que se cumpla con la caracteristica de disponiblidad para el servicio.
-![alt text](imageProxyTree.png)
+<img width="335" height="298" alt="image" src="https://github.com/user-attachments/assets/a6281d24-0576-427a-8c8e-71d50e81a802" />
 
 Se diseña de esta manera la estructura del sistema para que de esta manera haya una correcta distribucion y delegacion de responsabilidades o funciones, ayudando a mantener un orden.
 
