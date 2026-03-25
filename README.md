@@ -43,7 +43,7 @@ Se diseña de esta manera la estructura del sistema para que de esta manera haya
 
 - Luego creamos las instancias necesarias para el sistema, dos para el servicio de Math tanto para el servicio principal (activo) como para el respaldo (pasivo), ademas tenemos una estancia para el servidor proxy el cual administrara el flujo de informacion hacia cada estancia de Math.
 
-+ imagen
+<img width="691" height="146" alt="image" src="https://github.com/user-attachments/assets/09a32988-ba81-4253-b995-4fd52d1761ca" />
 
 - Habilitamos los puertos necesarios para crear las conexiones, en el caso de Math (activo) se habilita puertos ssh (22) y http (8081), con Math2 es igual solo que se le habilita otro puerto (8080) para no interrumpir el servicio princial, con el proxy se habilita los mismos para permitir la conexion entre cada servicio.
 
